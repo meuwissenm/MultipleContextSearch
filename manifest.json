@@ -1,0 +1,17 @@
+//Matt Meuwissen 1/10/2017
+{
+  "name": "Context Search",
+  "description": "Search highlighted text on specific search engines",
+  "version": "0.6",
+  "permissions": ["contextMenus"],
+        "icons": {
+	//Icons made by http://www.flaticon.com/authors/madebyoliver
+          "16": "icon-bittySearch.png",
+          "32": "icon-smallSearch.png",
+          "128": "icon-largeSearch.png"
+        },
+  "background": {
+    "scripts": ["search.js"]
+  },
+  "manifest_version": 2
+}
